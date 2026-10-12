@@ -10,11 +10,9 @@ export type Product = {
 };
 
 const products: Product[] = [
-  { id: "1", name: "웹서버보안프로그래밍 머그컵", description: "머그컵", likes: 3 },
-  { id: "2", name: "Next.js 스티커 팩", description: "스티커 모음", likes: 5 },
-  { id: "3", name: "OWASP Top 10 포스터", description: "보안 체크리스트", likes: 8 },
-  { id: "4", name: "휴대폰", description: "갤럭시 플립 7", likes: 0 },
-  { id: "5", name: "노트북", description: "노트북", likes: 0 },
+  { id: "1", name: "웹서버보안프로그래밍 머그컵", description: "수업 중 마실 커피를 위한 머그컵", likes: 3 },
+  { id: "2", name: "Next.js 스티커 팩", description: "노트북에 붙이는 프레임워크 스티커 모음", likes: 5 },
+  { id: "3", name: "OWASP Top 10 포스터", description: "책상 앞에 붙여두는 보안 체크리스트", likes: 8 },
 ];
 
 function delay(ms: number) {

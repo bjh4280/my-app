@@ -14,17 +14,23 @@ export default function Home() {
         </span>
 
         <h1 className="text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
-          웹서버보안프로그래밍 — 배종현
+          웹서버보안프로그래밍 — 5주차
         </h1>
         <p className="max-w-md text-base leading-7 text-zinc-600 dark:text-zinc-400">
-          3주차 템플릿에 라우팅·데이터 페칭·Server Action 예제를 추가했습니다.
-          아래 카운터는 브라우저에서 동작하는 Client Component입니다.
+          이번 주부터 학기 내내 성장할 &ldquo;공지사항 게시판&rdquo; 프로젝트를 시작합니다.
+          상단 메뉴의 &ldquo;공지사항&rdquo;에서 확인해보세요.
         </p>
 
         {/* Counter는 useState를 쓰는 Client Component 입니다. */}
         <Counter />
 
         <div className="flex flex-col gap-2 text-sm">
+          <Link
+            href="/notices"
+            className="font-medium text-zinc-950 underline underline-offset-4 dark:text-zinc-50"
+          >
+            /notices — 이번 학기 코스 프로젝트: 공지사항 게시판 →
+          </Link>
           <Link
             href="/about"
             className="font-medium text-zinc-950 underline underline-offset-4 dark:text-zinc-50"
