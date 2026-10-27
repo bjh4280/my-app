@@ -29,7 +29,9 @@ export default function Home() {
             href="/notices"
             className="font-medium text-zinc-950 underline underline-offset-4 dark:text-zinc-50"
           >
-            /notices — 이번 학기 코스 프로젝트: 공지사항 게시판 →
+            /notices — 이번 학기 코스 프로젝트: 공지사항 게시판
+
+             →
           </Link>
           <Link
             href="/about"
